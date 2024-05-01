@@ -5,4 +5,5 @@
     --highlight-colour: hsl(15, 40%, 80%);
     --primary-text-colour: hsl(0, 0%, 0%);
     --secondary-text-colour: hsl(0, 0%, 10%);
+    --shadow-colour: rgba(181, 181, 181, 0.7);
 }

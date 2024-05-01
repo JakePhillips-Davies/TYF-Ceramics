@@ -7,13 +7,14 @@
 
     background-color: var(--header-colour);
 
-    box-shadow: 0 0 .5em rgba(0, 0, 0, 0.479), 0 0 1em black;
+    box-shadow: 0 0 .5em var(--shadow-colour), 0 0 1em rgba(0, 0, 0, 0.5);
 
     display: flex;
 }
 header {
     margin-top: 4rem;
 }
+
 
 .homepageLink {
     padding: 1rem;

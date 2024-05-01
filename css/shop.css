@@ -1,0 +1,125 @@
+header h1 {
+    padding: 3rem;
+    padding-bottom: 1rem;
+    margin: 0;
+
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+/*-------------------------   IMAGES   -------------------------*/
+.imageContainer {
+    width: 98%;
+    margin: 1%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 33.3333%);
+    grid-template-rows: repeat(auto, auto);
+}
+.imageLarge {
+    grid-area: auto / auto / span 3 / span 3;
+    width: 97.5%;
+    margin: 1.25%;
+
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--shadow-colour);
+}
+.imageMed {
+    grid-area: auto / auto / span 2 / span 2;
+    width: 95%;
+    margin: 2.5%;
+
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--shadow-colour);
+}
+.imageSmall {
+    grid-area: auto / auto / span 1 / span 1;
+    width: 90%;
+    margin: 5%;
+
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem var(--shadow-colour);
+}
+
+
+/*-------------------------   HEADER AND DIVIDER   -------------------------*/
+h2 {
+    margin-left: 10%;
+    font-size: 2rem;
+}
+.shopDivider {
+    display: block;
+
+    width: 56.66%;
+    margin: 0;
+    padding: 0;
+    margin-left: 10%;
+    margin-bottom: 2rem;
+    height: .4rem;
+    background-color: var(--primary-text-colour);
+}
+
+
+/*-------------------------   SHOP FRONT   -------------------------*/
+.shop-front {
+    margin: 10%;
+    margin-top: 0;
+    margin-bottom: 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(auto, auto);
+}
+
+/*-------------------------   SHOP ITEM   -------------------------*/
+.shop-item {
+    margin: 2%;
+    background-color: var(--background-secondary-colour);
+
+    border-radius: 3em;
+
+    box-shadow: 0 0 1rem var(--shadow-colour);
+
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100%;
+}
+.shop-item img {
+    width: 90%;
+    margin: 5%;
+
+    border-radius: 3em;
+    
+    box-shadow: 0 0 1rem var(--shadow-colour);
+
+    grid-area: 1 / 1 / 4 / 1;
+}
+.shop-item div {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.shop-item h3 {
+    font-size: 3rem;
+    margin: 1rem;
+    margin-left: .5rem;
+    margin-top: 5%;
+}
+.item-price {
+    font-size: 1.8rem;
+    font-weight: 300;
+
+    margin: .5rem;
+    margin-right: 1rem;
+    margin-bottom: 5%;
+    margin-top: auto;
+}
+.item-description {
+    font-size: 1.5rem;
+    font-weight: 300;
+
+    margin: .5rem;
+    margin-right: 1rem;
+}

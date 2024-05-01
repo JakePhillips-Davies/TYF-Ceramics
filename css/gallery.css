@@ -13,7 +13,7 @@
     width: 100%;
     margin: 0;
     border-radius: 3rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 1rem var(--shadow-colour);
 }
 .gallery-images p {
     position: relative;
@@ -28,7 +28,7 @@
     padding: .5rem;
     border-radius: .5rem;
 
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 1rem var(--shadow-colour);
 
     text-align: center;
     font-size: 1rem;
