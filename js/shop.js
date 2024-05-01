@@ -10,7 +10,7 @@ function setupShopFront(json) {
 
     if (json.length == 0) { //If there's nothing in the list, print a message and terminate the function
         var noStockMsg = document.createElement(`p`);
-        noStockMsg.innerText = "Sorry, nothing here at the moment. Come back another time!"
+        noStockMsg.innerText = "Sorry, nothing here at the moment. Come back another time, or send a commission to my email!"
 
         shopFront.appendChild(noStockMsg);
         return;

@@ -6,6 +6,12 @@
         "price": 15.00
     },
     {
+        "imageUrl": "mugShop/small-cup.jpg",
+        "title": "Espresso cup",
+        "description": "Bronzy underglaze, small, good for coffee supposedly",
+        "price": 15.00
+    },
+    {
         "imageUrl": "mugShop/mug-red-back.jpg",
         "title": "Avarage mug",
         "description": "It sure is a mug",

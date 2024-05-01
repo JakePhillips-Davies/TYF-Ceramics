@@ -7,7 +7,7 @@
     grid-template-rows: repeat(3, 30%);
     grid-template-columns: repeat(3, 30%);
     gap: 5%;
-    margin: 5%;
+    margin: 10%;
 }
 .gallery-images img {
     width: 100%;

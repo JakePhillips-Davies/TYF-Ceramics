@@ -27,9 +27,13 @@
     border-style: none;
     color: hsl(0, 0%, 90%);
     background-color: rgba(0, 0, 0, 0);
+
+    transition: opacity .5s;
+    opacity: 100%;
 }
 .carouselButton:hover {
-    color: hsl(0, 0%, 80%);
+    transition: opacity .5s;
+    opacity: 60%;
 }
 #carouselPrev {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.66), rgb(0, 0, 0, 0));
