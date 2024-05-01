@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TYF Ceramics</title>
+
+        <!--                     CSS                     -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mainNav.css">
+        <link rel="stylesheet" href="css/carousel.css">
+        <link rel="stylesheet" href="css/gallery.css">
+        <link rel="stylesheet" href="css/mainPage.css">
+        <!-- Theme selection -->
+        <link rel="stylesheet" id="themeSheet" href="css/themes/dark.css">
+
+        <!--                     JS                     -->
+        <script defer rel="text/javascript" src="js/themeSelect.js"></script>
+        <script defer rel="text/javascript" src="js/carousel.js"></script>
+        <script defer rel="text/javascript" src="js/gallery.js"></script>
+
+        <!--                     Fonts                     -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://kit.fontawesome.com/d761a5131f.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body>
+        <header>
+            <nav class="mainNav">
+                <a class="homepageLink" href="index.html"> TYF Ceramics </a>
+                <div class="dropdown">
+                    <span class="headerHighlight">Shop</span>
+                    <ul class="dropdown-content">
+                        <li><a href="masks.html" class="headerHighlight">Masks</a></li>
+                        <li><a href="mugs.html" class="headerHighlight">Mugs</a></li>
+                    </ul>
+                </div>
+                <a href="about-me.html" class="headerHighlight">About me</a>
+                <button id="themeSelectButton"><i class="fa-solid fa-lightbulb"></i><span id="themeButtonText">Dark mode</span></button>
+            </nav>
+        </header>
+        <main>
+            <div class="carousel">
+                <nav>
+                    <button class="carouselButton" id="carouselPrev"><i class="fa-solid fa-angle-left"></i></button>
+                    <button class="carouselButton" id="carouselNext"><i class="fa-solid fa-angle-right"></i></button>
+                </nav>
+                <div class="carousel-images" id="carouselImages"></div>
+                <p class="carousel-caption" id="carouselCaption"></p>
+            </div>
+            <article>
+                <div class="blurb-container">
+                    <p class="blurb">
+                        My work is heavily influenced by the ideas to which I have been exposed in studying Mathematics and Physics.  I am fascinated by interfaces, the spaces in between and the places where discrete items meet.  Moments in time, a pixel becoming an image, a surface changing from one finish to another, the packets of energy between all things are all concepts which drive me to creation.  Glass plays with our perception of depth and dimension and patterns distort smooth 3D surfaces changing them as we change.<br><br>
+                        My faces always have some sort of strange goings on in their heads and this reflects the inner workings of our infinitely varied minds and our very different perceptions of reality.  They change from day to day, because the expressions are subtle, one can read into them different things depending on mood, light and setting.   I keep coming back to the human figure; the figurative is like a meta material that one can use to express many different concepts and emotions at once.
+                    </p>
+                    <img src="images/Mask1.jpg" alt="Pretty mask" class="blurb-img">
+                </div>
+                <img src="images/Mountains.png" alt="Mountains of Wales">
+            </article>
+            <div class="gallery">
+                <div class="gallery-images" id="galleryImages"></div>
+            </div>
+        </main>
+        <footer>
+            <p>
+                © 2024 Jake Phillips-Davies
+            </p>
+        </footer>
+    </body>
+</html>

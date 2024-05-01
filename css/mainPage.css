@@ -1,0 +1,29 @@
+.blurb {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    display: inline-block;
+
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+
+    width: 35rem;
+
+    font-size: 1.25rem;
+
+    background-color: var(--background-secondary-colour);
+}
+.blurb-img {
+    width: 30rem;
+    margin-left: -10rem;
+
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+.blurb-container {
+    width: fit-content;
+    margin: auto;
+    margin-top: 11rem;
+    margin-bottom: 11rem;
+}
