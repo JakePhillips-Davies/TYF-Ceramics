@@ -18,7 +18,7 @@ header h1 {
 
     display: grid;
     grid-template-columns: repeat(3, 33.3333%);
-    grid-template-rows: repeat(auto, auto);
+    grid-template-rows: auto;
 }
 .imageLarge {
     grid-area: auto / auto / span 3 / span 3;
@@ -111,7 +111,7 @@ h2 {
 
     display: grid;
     grid-template-columns: repeat(3, 33.333%);
-    grid-template-rows: repeat(auto, auto);
+    grid-template-rows: auto;
 }
 
 /*-------------------------   SHOP ITEM   -------------------------*/
