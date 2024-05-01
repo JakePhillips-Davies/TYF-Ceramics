@@ -14,7 +14,15 @@ function setupGallery(json) {
         image.setAttribute(`alt`, jsonImage.caption);
         image.setAttribute(`title`, jsonImage.caption);
         image.setAttribute(`src`, jsonImage.url);
-        imageContainerGallery.appendChild(image);
+
+        var captionBox = document.createElement(`p`);
+        captionBox.innerText = jsonImage.caption;
+
+        var container = document.createElement(`span`);
+
+        container.appendChild(image);
+        container.appendChild(captionBox);
+        imageContainerGallery.appendChild(container);
     });
     
 }

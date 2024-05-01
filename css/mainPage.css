@@ -14,6 +14,9 @@
 
     background-color: var(--background-secondary-colour);
 }
+.mountain-pic {
+    width: 100%;
+}
 .blurb-img {
     width: 30rem;
     margin-left: -10rem;
