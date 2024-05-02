@@ -1,0 +1,16 @@
+p {
+    padding: 20%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.6rem;
+}
+img {
+    max-width: 80%;
+
+    border-radius: 1rem;
+
+    box-shadow: 0 0 1rem var(--shadow-colour);
+}
